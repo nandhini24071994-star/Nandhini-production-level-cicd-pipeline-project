@@ -1,71 +1,84 @@
-🚀 DevOps Production-Level CI/CD Pipeline with Monitoring
-📌 Project Overview
+# 🚀 DevOps Production-Level CI/CD Pipeline with Monitoring
+
+## 📌 Project Overview
 
 This project demonstrates a production-style DevOps pipeline integrating CI/CD, containerization, and real-time monitoring.
 
-A React application is automatically built, containerized using Docker, and deployed on an AWS EC2 instance using Jenkins. The system is monitored using Prometheus and Grafana.
+A React application is automatically built, containerized using Docker, and deployed on an AWS EC2 instance using Jenkins.
 
-🏗️ Architecture
+The system is monitored using Prometheus and Grafana.
 
-GitHub → Jenkins → Docker → EC2 → React App (Live)
-                     ↓
+---
+
+## 🏗️ Architecture
+
+GitHub → Jenkins → Docker → EC2 → React App (Live)  
+                             ↓  
         Prometheus → Grafana (Monitoring)
 
-⚙️ Tech Stack
+---
 
-React.js (Frontend Application)
-Jenkins (CI/CD Automation)
-Docker (Containerization)
-AWS EC2 (Deployment Server)
-GitHub (Source Code Management)
-Prometheus (Metrics Collection)
-Grafana (Monitoring & Visualization)
+## ⚙️ Tech Stack
 
-🔄 CI/CD Pipeline Flow
+- React.js (Frontend Application)
+- Jenkins (CI/CD Automation)
+- Docker (Containerization)
+- AWS EC2 (Deployment Server)
+- GitHub (Source Code Management)
+- Prometheus (Metrics Collection)
+- Grafana (Monitoring & Visualization)
 
-Developer pushes code to GitHub
-GitHub Webhook triggers Jenkins
-Jenkins pulls latest code
-Builds Docker image
-Runs container on EC2
-Application is deployed automatically
+---
 
-📊 Monitoring Setup
+## 🔄 CI/CD Pipeline Flow
 
-Prometheus collects system and container metrics (CPU, memory, disk)
-Grafana visualizes metrics using dashboards
-Node Exporter provides system-level metrics from EC2
+- Developer pushes code to GitHub  
+- GitHub Webhook triggers Jenkins  
+- Jenkins pulls latest code  
+- Builds Docker image  
+- Runs container on EC2  
+- Application is deployed automatically  
 
-📸 Screenshots
+---
 
-🔹 Jenkins Pipeline Success
+## 📊 Monitoring Setup
 
-(Show build success with GitHub trigger)
+- Prometheus collects system and container metrics (CPU, memory, disk)
+- Grafana visualizes metrics using dashboards
+- Node Exporter provides system-level metrics from EC2
 
-🔹 Prometheus Targets
+---
 
-(Show node-exporter = UP)
+## 📸 Screenshots
 
-🔹 Prometheus Graphs
+### 🔹 Jenkins Pipeline Success
+Build success triggered by GitHub push
 
-(Show live metric data)
+### 🔹 Prometheus Targets
+node-exporter = UP
 
-🔹 Grafana Dashboard
+### 🔹 Prometheus Graphs
+Live metric data
 
-(Show CPU, memory, disk usage graphs)
+### 🔹 Grafana Dashboard
+CPU, memory, disk usage graphs
 
-🔹 React Application Running
+### 🔹 React Application Running
+Live UI deployed on EC2
 
-(Show deployed UI in browser)
+---
 
-🚀 Features
-Fully automated CI/CD pipeline
-Dockerized React application
-Real-time system monitoring
-Auto deployment on code push
-Production-style DevOps workflow
+## 🚀 Features
 
-📌 Author
+- Fully automated CI/CD pipeline  
+- Dockerized React application  
+- Real-time system monitoring  
+- Auto deployment on code push  
+- Production-style DevOps workflow  
 
-Nandhini
-DevOps Engineer
+---
+
+## 📌 Author
+
+Nandhini  
+DevOps Engineer 
